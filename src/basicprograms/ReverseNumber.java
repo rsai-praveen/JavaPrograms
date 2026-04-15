@@ -8,7 +8,7 @@ public class ReverseNumber {
 		while(n!=0)
 		{
 			rem=rem*10+n%10;
-			//System.out.println(rem);
+			
 			n=n/10;
 		}
 		return rem;
@@ -16,11 +16,11 @@ public class ReverseNumber {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the number you want to Reverse: ");
+		System.out.print("Enter the number you want to Reverse : ");
 		int number = sc.nextInt();
 		sc.close();
 		
-		System.out.println(reverse(number));
+		System.out.printf("The Revese of given number %d is %d",number ,reverse(number));
 		
 
 
