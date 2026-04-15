@@ -19,7 +19,7 @@ public class EvenOrOdd {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the integer number : ");
+		System.out.print("Enter the integer number to Check Even or odd : ");
 		int num1 =sc.nextInt();
 		sc.close();
 		evenOrOdd(num1);

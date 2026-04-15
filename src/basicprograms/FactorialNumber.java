@@ -22,6 +22,7 @@ public class FactorialNumber {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the integer number to find the factorial : ");
 		int number = sc.nextInt();
 		sc.close();
 		System.out.printf("the factorial of %d is %d ", number, fact(number));

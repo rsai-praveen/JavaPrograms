@@ -20,10 +20,10 @@ public class Fibanocci {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("enter the number of terms to print in fibanacci series");
+		System.out.print("enter the number of terms you need to print in fibanacci series : ");
 		int number = sc.nextInt();
 		sc.close();
-		
+		System.out.printf("First %d terms of fibanacci series is : ",number);
 		fib(number);
 
 
