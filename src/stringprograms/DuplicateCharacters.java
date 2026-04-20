@@ -28,7 +28,7 @@ public class DuplicateCharacters {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the string-1 want to check duplicate characters: ");
+		System.out.print("Enter the string want to check duplicate characters: ");
 		String str1 = sc.nextLine();
 		str1=str1.replace(" ",""); // removes the white spaces
 		System.out.println();

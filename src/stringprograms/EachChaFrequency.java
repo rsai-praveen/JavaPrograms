@@ -19,7 +19,7 @@ public class EachChaFrequency {
 					count++;
 				}
 			}
-			System.out.printf("The Frequecy of '%s'q in a array is %d", a, count);
+			System.out.printf("The Frequecy of '%s' in a array is %d", a, count);
 			System.out.println();
 		}
 
