@@ -19,7 +19,7 @@ public class ReverseArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a = { 1, 2, 3, 011, 9, 8, 77, 6, 5 };
+		int[] a = { 1, 2, 3, 12, 9, 8, 77, 6, 5 };
 		System.out.printf("The reverse of given array is "+Arrays.toString(reverse(a)));
 
 	}
