@@ -14,7 +14,7 @@ public class smallestElement {
 	public static void main(String[] args) {
 		
 		int[] a = { 1, 2, 3, 011, 9, 8, 77, 6, 5 };
-		System.out.printf("The maimum of given array is %d", minArray(a));
+		System.out.printf("The smallest of given array is %d", minArray(a));
 	}
 
 }
